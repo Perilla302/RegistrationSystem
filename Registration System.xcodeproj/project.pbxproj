@@ -15,6 +15,13 @@
 		B6B8A5AE1BD9396100669396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B8A5AC1BD9396100669396 /* LaunchScreen.storyboard */; };
 		B6B8A5B91BD9396100669396 /* Registration_SystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B8A5B81BD9396100669396 /* Registration_SystemTests.m */; };
 		B6B8A5C41BD9396100669396 /* Registration_SystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B8A5C31BD9396100669396 /* Registration_SystemUITests.m */; };
+		B6B8A5D31BD93DF000669396 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B8A5D21BD93DF000669396 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B6B8A5D61BD93E0000669396 /* EmailLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B8A5D51BD93E0000669396 /* EmailLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B6B8A5D91BD93E1200669396 /* UserPasswordLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B8A5D81BD93E1200669396 /* UserPasswordLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B6B8A5DC1BD93E2600669396 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B8A5DB1BD93E2600669396 /* WelcomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B6B8A5DF1BD93E9E00669396 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B8A5DD1BD93E9E00669396 /* libsqlite3.0.tbd */; };
+		B6B8A5E01BD93E9E00669396 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B8A5DE1BD93E9E00669396 /* libsqlite3.tbd */; };
+		B6E4C4AE1BD96680008CB7F9 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E4C4AD1BD96680008CB7F9 /* MyObject.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		B6B8A5BF1BD9396100669396 /* Registration SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Registration SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B8A5C31BD9396100669396 /* Registration_SystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Registration_SystemUITests.m; sourceTree = "<group>"; };
 		B6B8A5C51BD9396100669396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B8A5D11BD93DF000669396 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		B6B8A5D21BD93DF000669396 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		B6B8A5D41BD93E0000669396 /* EmailLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailLoginViewController.h; sourceTree = "<group>"; };
+		B6B8A5D51BD93E0000669396 /* EmailLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailLoginViewController.m; sourceTree = "<group>"; };
+		B6B8A5D71BD93E1200669396 /* UserPasswordLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPasswordLoginViewController.h; sourceTree = "<group>"; };
+		B6B8A5D81BD93E1200669396 /* UserPasswordLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPasswordLoginViewController.m; sourceTree = "<group>"; };
+		B6B8A5DA1BD93E2600669396 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		B6B8A5DB1BD93E2600669396 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		B6B8A5DD1BD93E9E00669396 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B6B8A5DE1BD93E9E00669396 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B6E4C4AC1BD96680008CB7F9 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		B6E4C4AD1BD96680008CB7F9 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B8A5DF1BD93E9E00669396 /* libsqlite3.0.tbd in Frameworks */,
+				B6B8A5E01BD93E9E00669396 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 		B6B8A5921BD9396100669396 = {
 			isa = PBXGroup;
 			children = (
+				B6B8A5DD1BD93E9E00669396 /* libsqlite3.0.tbd */,
+				B6B8A5DE1BD93E9E00669396 /* libsqlite3.tbd */,
 				B6B8A59D1BD9396100669396 /* Registration System */,
 				B6B8A5B71BD9396100669396 /* Registration SystemTests */,
 				B6B8A5C21BD9396100669396 /* Registration SystemUITests */,
@@ -105,6 +128,14 @@
 				B6B8A5A21BD9396100669396 /* AppDelegate.m */,
 				B6B8A5A41BD9396100669396 /* ViewController.h */,
 				B6B8A5A51BD9396100669396 /* ViewController.m */,
+				B6B8A5D11BD93DF000669396 /* RegisterViewController.h */,
+				B6B8A5D21BD93DF000669396 /* RegisterViewController.m */,
+				B6B8A5D41BD93E0000669396 /* EmailLoginViewController.h */,
+				B6B8A5D51BD93E0000669396 /* EmailLoginViewController.m */,
+				B6B8A5D71BD93E1200669396 /* UserPasswordLoginViewController.h */,
+				B6B8A5D81BD93E1200669396 /* UserPasswordLoginViewController.m */,
+				B6B8A5DA1BD93E2600669396 /* WelcomeViewController.h */,
+				B6B8A5DB1BD93E2600669396 /* WelcomeViewController.m */,
 				B6B8A5A71BD9396100669396 /* Main.storyboard */,
 				B6B8A5AA1BD9396100669396 /* Assets.xcassets */,
 				B6B8A5AC1BD9396100669396 /* LaunchScreen.storyboard */,
@@ -117,6 +148,8 @@
 		B6B8A59E1BD9396100669396 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6E4C4AC1BD96680008CB7F9 /* MyObject.h */,
+				B6E4C4AD1BD96680008CB7F9 /* MyObject.m */,
 				B6B8A59F1BD9396100669396 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -275,7 +308,12 @@
 			files = (
 				B6B8A5A61BD9396100669396 /* ViewController.m in Sources */,
 				B6B8A5A31BD9396100669396 /* AppDelegate.m in Sources */,
+				B6E4C4AE1BD96680008CB7F9 /* MyObject.m in Sources */,
 				B6B8A5A01BD9396100669396 /* main.m in Sources */,
+				B6B8A5D61BD93E0000669396 /* EmailLoginViewController.m in Sources */,
+				B6B8A5D91BD93E1200669396 /* UserPasswordLoginViewController.m in Sources */,
+				B6B8A5DC1BD93E2600669396 /* WelcomeViewController.m in Sources */,
+				B6B8A5D31BD93DF000669396 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +539,7 @@
 				B6B8A5CA1BD9396100669396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6B8A5CB1BD9396100669396 /* Build configuration list for PBXNativeTarget "Registration SystemTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +548,7 @@
 				B6B8A5CD1BD9396100669396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6B8A5CE1BD9396100669396 /* Build configuration list for PBXNativeTarget "Registration SystemUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +557,7 @@
 				B6B8A5D01BD9396100669396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
